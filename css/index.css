@@ -1,0 +1,28 @@
+.log{
+    width: 150px;
+}
+.header-blue {
+    background-color:#0089D7;
+    font-family:
+    'Source Sans Pro', sans-serif;
+}
+.header-blue .navbar {
+    background:transparent;
+    padding-top:.75rem;
+    padding-bottom:.75rem;
+    color:#fff;
+    border-radius:0;
+    box-shadow:none;
+    border:none;
+}
+.header-blue .action-button, .header-blue .action-button:not(.disabled):active {
+    border:1px solid rgba(255,255,255,0.7);
+    border-radius:40px;
+    color:#ebeff1;
+    box-shadow:none;
+    text-shadow:none;
+    padding:.3rem .8rem;
+    background:transparent;
+    transition:background-color 0.25s;
+    outline:none;
+}
